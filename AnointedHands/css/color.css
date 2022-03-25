@@ -1,0 +1,97 @@
+/*
+	color.css
+	colors, font styles, text decorations
+*/
+
+html{min-height: 100%;} /* for the background gradient */
+body{
+	background: rgba(244, 236, 112, 0.25);
+	color: #232803;
+}
+
+#bggradient{
+	background-image: linear-gradient(#232803, #5d5010, #bd9f35, #d8c653, #a88e2a, #eadb66, #f3e96f, #93761d, #343306, #232803);
+	background-repeat: no-repeat;
+}
+
+#nav{background: rgba(244, 236, 112, 0.25);}
+
+#navfootwrapper a:link{
+	color: #000000;
+	background-image: radial-gradient(circle, rgba(35, 40, 3, 0.5), rgba(93, 80, 16, 0.5), rgba(189, 159, 53, 0.5), rgba(216, 198, 83, 0.5), rgba(168, 142, 42, 0.5), rgba(234, 219, 102, 0.5), rgba(243, 233, 111, 0.5), rgba(147, 118, 29, 0.5), rgba(52, 51, 6, 0.5), rgba(35, 40, 3, 0.5));
+	text-decoration:none;
+	border-radius: 100px 100px 100px 100px;
+	padding: 5px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8); /* horizontal vertical blur spread color inset|initial|inherit */
+}
+#navfootwrapper a:hover{
+	color: #000000;
+	background-image: radial-gradient(circle, rgba(35, 40, 3, 0.3), rgba(52, 51, 6, 0.3), rgba(147, 118, 29, 0.3),rgba(243, 233, 111, 0.3), rgba(234, 219, 102, 0.3), rgba(168, 142, 42, 0.3), rgba(216, 198, 83, 0.3),  rgba(189, 159, 53, 0.3), rgba(93, 80, 16, 0.3), rgba(35, 40, 3, 0.3));
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.8) inset; 
+}
+#navfootwrapper a:active{
+	color: #000000;
+	background-image: radial-gradient(circle, rgba(35, 40, 3, 0.3), rgba(52, 51, 6, 0.3), rgba(147, 118, 29, 0.3),rgba(243, 233, 111, 0.3), rgba(234, 219, 102, 0.3), rgba(168, 142, 42, 0.3), rgba(216, 198, 83, 0.3),  rgba(189, 159, 53, 0.3), rgba(93, 80, 16, 0.3), rgba(35, 40, 3, 0.3));
+	border-radius: 100px 100px 100px 100px;
+	box-shadow: 0 0 10px 5px rgba(15, 15, 15, 0.3) inset; 
+}
+#navfootwrapper a:visited{
+	color: #000000;
+}
+	
+footer{color: #f4ec70;}
+footer a:link{font-weight: bold;}
+
+a:link{
+	color: #232803;
+	text-decoration: underline overline;
+}
+a:hover{
+	color: #474300;
+	text-decoration: none;
+	text-shadow: 0 0 2px #232803; /* horizontal vertical blur-radius color inset|initial|inherit */
+}
+a:active{
+	color: #232803;
+	text-decoration:none;
+}
+a:visited{
+	color: #000000;
+	text-decoration: none;
+}
+
+/*
+a:link{
+	color: #232803;
+	text-decoration:none;
+	border: #000000 1px dashed;
+	background: #f4ec70;
+}
+a:hover{
+	color: #f4ec70;
+	text-decoration:none;
+	border: #f4ec70 1px solid;
+	background: #232803;
+}
+a:active{
+	color: #232803;
+	text-decoration:none;
+	border: #9f7d2d 1px dotted;
+}
+a:visited{
+	color: #f4ec70;
+	text-decoration:none;
+	background: #232803;
+}
+*/
+.nobg{
+	background-color: transparent;
+	background: none;
+	background-image: none;
+}
+
+#warning{
+	background-color: #620836;
+	color: #ff6666;
+}

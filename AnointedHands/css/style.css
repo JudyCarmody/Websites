@@ -1,0 +1,66 @@
+/*
+	style.css
+	alignment, size, and placement of elements
+*/
+body{
+	font-face: Verdana;
+	font-size: 12pt;
+}
+#logo{
+	width: 40%;
+	height: auto;
+}
+#content{
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+#navbtn{
+	padding: .5em;
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	line-height: 2.5em;
+}
+
+.smlink{
+	height: 100%;
+	width: auto;
+}
+
+li{list-style: none;}
+
+.nobg{padding: 0; border: none;}
+
+#header{
+	position: absolute;
+	width: 85%;
+	top: 0px;
+	text-align: center;
+}
+#main{
+	position: absolute;
+	width: 85%;
+	height: 75%;
+	top: 18%;
+}
+nav{
+	position: absolute;
+	left: 87%;
+	top: 18%;
+	width: 12%;
+	height: 75%;
+	font-size:14pt;
+	text-align: center;
+}
+footer{
+	position: absolute;
+	size: 10pt;
+	height: 3%;
+	top: 95%;	
+	width: 85%;
+	text-align: center;
+}
