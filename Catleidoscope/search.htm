@@ -1,0 +1,39 @@
+<!DOCTYPE html> 
+<html>
+	<head>
+<link rel="stylesheet" href="global.css" type="text/css"/>
+		<title>Search</title>
+		<style>
+			#maintext{margin:auto;}
+			form{margin: 1%;}
+			#formwrap{
+				width: 20%;
+				margin-right: auto;
+				margin-left: auto;}
+		</style>
+	</head>
+	<body class="body-content">
+		<main class="maintext">
+			<p class="text">Search for adoption locations locally, statewide, or nationwide.
+				<div id="formwrap">
+				<form method="post" action="">
+				<label for="city">CITY: </label>
+					<input type="text" name="city" id="city">
+						<label for="state">STATE: </label>
+					<input type="text" name="state" id="state">
+						<label for="zip">ZIPCODE: </label>
+					<input type="text" name="zip" id="zip" required="required">
+					
+						<label for="option1">Local (City)</label>
+					<input type="checkbox" name="option1" value="local">
+						<label for="option2">State</label>
+					<input type="checkbox" name="option2" value="statew">
+						<label for="option3">National</label>
+					<input type="checkbox" name="option3" value="nationw"><br><br>
+					<input id="searchBtn" type="submit" value="Search">
+				</form>
+			</div>
+			</p>
+		</main>
+	</body>
+</html>
