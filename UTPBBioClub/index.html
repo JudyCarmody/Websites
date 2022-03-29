@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>UTPB BIology Club</title>
+		<meta charset="utf-8">
+		
+		<!-- these two lines allow the site to be formatted properly when viewed on a mobile device.  DO NOT REMOVE THESE TWO LINES -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="HandheldFriendly" content="true">
+		
+		<!-- defines the colors and layout of the site.  DO NOT REMOVE THESE THREE LINES -->
+		<link rel="stylesheet" type="text/css" href="css/mobile.css" media="screen">
+		<link rel="stylesheet" type="text/css" href="css/desktop.css" media="screen  and (min-width: 65em)">
+		<link rel="stylesheet" type="text/css" href="css/global.css">
+		
+		<!-- Icon in tab --- this isn't necessary, these three lines can be removed if needed. -->
+		<link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="icon" href="images/favicon_anim.gif" type="image/gif" >
+		<link rel="apple-touch-icon" href="images/UTPB_BIO_ICON2.png">
+
+		<!--[if (lt IE 9)&(!IEMobile)]>
+			<link rel="stylesheet" type="text/css" href="desktop.css" />
+		<![endif]-->
+
+		<!-- 
+		modernizr.js -- JavaScript library that detects HTML5 and CSS3 features in the user’s browser. 
+		Doesn't add features, but tells you whether or not a browser supports features you are trying to use.
+		Allows for experimentation with HTML5 and CSS3 without breaking the site.
+		-->
+		<script type="text/javascript" src="js/modernizr.js"></script> 
+		
+		<!--
+			Konami Code   These four lines (and the respective files) can be removed without affecting the site
+				The files associated with these lines are:
+					jquery.min.js -- is not local (it is at a remote location), just delete the line
+				
+					In js folder
+						jquery.konami.js
+						sweetalert.min.js
+						
+					In css folder
+						sweetalert.css
+						
+					In images folder
+						Konami-Code.png
+			-->
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="js/jquery.konami.js"></script>			
+		<script src="js/sweetalert.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/sweetalert.css">
+	</head>
+	
+	<body class="main-layout" id="page">
+		<!-- The very top of the page; has the image and menu-->
+		<header class="banner">
+			<div>
+				<h1 class="logo"><a href="main.htm" target="main" class="nobg"><img src="images/UTPB_BIO.png" alt="UTPB Biology Club" title="UTPB Biology Club"/></a></h1>
+				
+				<!-- Navigation -->
+				<ul id="nav-anchors" class="nav-anchors">
+					<li><a href="#nav" id="menu-anchor">Menu</a></li>
+				</ul>
+				<nav id="nav" class="nav reveal">
+					<ul>
+						<li><a href="main.htm" target="main">HOME</a></li>
+						<li><a href="events.htm" target="main">EVENTS</a></li>
+						<li><a href="photos.htm" target="main">PHOTOS</a></li>
+						<li><a href="contact.htm" target="main">CONTACT</a></li>
+						<!-- Add more as needed-->
+					</ul>
+				</nav>
+			</div>
+		</header>
+	
+		<div class="container">
+			<div class="content">
+<!-- Change date here-->	<p class="title">Updated: Month dd, yyyy</p>
+				<div class="content-wrapper">
+					<iframe name="main" src="main.htm">
+						<p>Your browser does not support iFrames.<br/>
+							Here are a few browsers that support iFrames:<br>
+							<a href="http://www.mozilla.org/en-US/firefox/new/" target="_blank">Firefox</a><br/>
+							<a href="https://www.google.com/chrome/" target="_blank">Google Chrome</a><br/>
+							<a href="http://www.opera.com/" target="_blank">Opera</br>
+							<a href="https://www.apple.com/safari/" target="_blank">Safari<br/>
+						</p>
+					</iframe>
+				</div>
+			</div>
+			
+			<div class="calendar">
+				<p class="title">Calendar</p>
+				<div class="frame-wrapper">
+					<iframe name="cal-content" src="calendar.htm">
+						<p>&nbsp;</p>
+					</iframe>
+				</div>
+			</div>
+			
+	  		<footer class="footer">
+				<!-- E-MAIL (prevents spam) -->
+				<script>
+					var partone = "&#98;&#105;&#111;"; 
+					var parttwo = "&#99;&#108;&#117;&#98;"; 
+					var partthree = "&#117;&#116;&#112;&#98;"; 
+					var partfour = "&#64;";
+					var partfive = "&#103;&#109;&#97;&#105;&#108;";
+					var partsix = "&#46;";
+					var partseven = "&#99;&#111;&#109;";
+					document.write('<a href=\"mailto:' + partone + parttwo + partthree + partfour + partfive + partsix + partseven + '\">');
+					document.write(partone + parttwo + partthree + partfour + partfive + partsix + partseven + '</a>');
+				</script>
+		
+				<!-- if JavaScript is turned off, this is what people will see -->
+				<NOSCRIPT>
+					bioclubutpb [at] gmail [dot] com
+				</NOSCRIPT>
+				<!-- END E-MAIL -->
+				 | <a href="http://www.utpb.edu/" target="_blank">University of Texas of the Permian Basin</a>
+				 | <a href="https://www.facebook.com/UtpbBioClub" target="_blank">Facebook</a>
+				 | <a href="https://twitter.com/UTPBBioClub" target="_blank">Twitter</a>
+			</footer>
+		</div>
+	<!-- these next two lines are required for the menu. (Hide when screen is small, revealed when screen is large)-->	
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/init.js"></script>
+	</body>
+</html>

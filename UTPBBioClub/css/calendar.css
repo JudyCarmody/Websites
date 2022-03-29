@@ -1,0 +1,71 @@
+/* 
+	Calendar
+	This is the content of the calendar.
+
+	Screen width is the width of the iFrame containing the calendar.
+
+*/
+
+/* DEFAULT */
+.calheader
+{
+	background-color:#7A2900;
+	color:#000000;
+	text-align:center;
+	font-size:1em;
+	font-weight:bold;
+	margin-bottom:-.75em;
+}
+	
+ul
+{
+	list-style-type:none;
+	margin-bottom:-3.2em;
+	padding:0;
+	line-height:1.1em;
+	font-size: 1em;
+}
+
+/* Laptop */
+@media screen and (max-width:19.9999em)
+{
+
+}
+
+/* landscape phone and portrait tablet (>= 480px < 960px) */
+@media screen and (min-width:20em) and (max-width:59.9999em)
+{
+	.calheader{margin-bottom:-.6em;}
+}
+
+/* landscape tablet and normal monitor (>= 960px < 1440px) */
+@media screen and (min-width:60em) and (max-width:89.9999em)
+{
+	.calheader{margin-bottom:-.75em;}
+}
+
+/* bigger monitor (>= 1440px) */
+@media screen and (min-width:90em)
+{
+	.calheader {margin-bottom:-.75em;}
+
+	ul
+	{
+		font-size:.9em;
+		line-height:1.1em;
+		border:1px solid #0000ff; /* BLUE */
+	}
+}
+
+/* big monitor (>= 1920px) */
+@media screen and (min-width:120em)
+{
+	.calheader {margin-bottom:-.75em;}
+
+	ul
+	{
+		font-size:.9em;
+		line-height:1.1em;
+		border:1px solid #ff00ff; /* PURPLE */
+	}
+}
