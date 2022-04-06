@@ -16,6 +16,11 @@ body{
 	border: none;
 }
 
+#portfolio{
+	height:30%;
+	width:auto;
+}
+
 #navbtn{
 	padding: .5em;
 	font-family: Verdana, Arial, sans-serif;
