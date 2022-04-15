@@ -21,7 +21,7 @@
 		exit;
 	}
 	
-	$email_from = "aquathros@gmail.com;"
+	$email_from = "Judith.E.Oller@gmail.com;"
 	$email_subj = "New Order";
 	$email_body = "New apparel order.\n".
 		"$name has ordered: \n".
@@ -38,15 +38,16 @@
 		"Client's contact information:\n".
 		"Phone number: $phone\n".
 		"Email: $email";
-	$email_to = "aquathros@gmail.com";
+	$email_to = "Judith.E.Oller@gmail.com";
 	$headers = "From $email_from \r\n";
 	
 	// send the form
 	mail($email_to, $email_subj, $email_body, $headers);
 
 	// redirect to main page
-	header("Location:main.htm");
+	header('Location:main.htm');
 	else{
 		?><span><?php echo "Please fill out all items on the form."; <?php
 	}
+	exit;
 ?>
